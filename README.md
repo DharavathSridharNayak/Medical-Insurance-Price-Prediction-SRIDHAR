@@ -1,2 +1,15 @@
-# Medical-Insurance-Price-Prediction-SRIDHAR
-A machine learning project to predict medical insurance prices based on individual attributes such as age, gender, BMI, smoking status, and region. This project uses regression techniques to analyze and model insurance costs, helping to estimate premiums accurately and provide insights for insurance providers and customers.
+Medical Insurance Price Prediction Using Machine Learning
+
+This project aims to predict medical insurance costs based on an individual's demographic and health-related attributes such as age, sex, BMI, number of dependents, smoking status, and region. Leveraging machine learning regression techniques, the model estimates insurance premiums with high accuracy. The goal is to assist insurance companies in pricing policies more effectively and help individuals understand the impact of various factors on their premiums.
+
+Key Features:
+
+Data preprocessing and feature engineering
+
+Exploratory Data Analysis (EDA) with visualizations
+
+Implementation of multiple regression models (Linear Regression, Ridge, Lasso)
+
+Model evaluation using metrics such as MAE, MSE, and R² score
+
+Deployed as an interactive app using Streamlit (optional)
