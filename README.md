@@ -12,4 +12,6 @@ Implementation of multiple regression models (Linear Regression, Ridge, Lasso)
 
 Model evaluation using metrics such as MAE, MSE, and R² score
 
-Deployed as an interactive app using Streamlit (optional)
+Deployed as an interactive app using Streamlit 
+
+👉 [Click here to try the Medical Insurance Price Prediction App on Hugging Face] (https://huggingface.co/spaces/DharavathSri/MEDICAL_INSURANCE)
