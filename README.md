@@ -1,4 +1,4 @@
-🩺 Medical Insurance Price Prediction Using Machine Learning
+🩺 MEDICAL INSURANCE PRICE PREDICTION USING MACHINE LEARNING:
 
 This project aims to predict medical insurance costs based on an individual's demographic and health-related attributes such as age, sex, BMI, number of dependents, smoking status, and region. Leveraging machine learning regression techniques, the model estimates insurance premiums with high accuracy. The goal is to assist insurance companies in pricing policies more effectively and help individuals understand the impact of various factors on their premiums.
 
