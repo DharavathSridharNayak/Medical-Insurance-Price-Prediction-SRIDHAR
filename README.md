@@ -18,4 +18,7 @@ Deployed as an interactive app using Streamlit
 
 📸 Screenshot 👇
 
+![{1E2528C1-BC5C-4AC4-87B8-80485936F933}](https://github.com/user-attachments/assets/f6499763-4e9b-4af0-91c8-7302aea57e85)
+
+
 
