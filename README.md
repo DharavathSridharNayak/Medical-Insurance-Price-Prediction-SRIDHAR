@@ -1,20 +1,106 @@
 🩺 MEDICAL INSURANCE PRICE PREDICTION USING MACHINE LEARNING:
 
 This project aims to predict medical insurance costs based on an individual's demographic and health-related attributes such as age, sex, BMI, number of dependents, smoking status, and region. Leveraging machine learning regression techniques, the model estimates insurance premiums with high accuracy. The goal is to assist insurance companies in pricing policies more effectively and help individuals understand the impact of various factors on their premiums.
+---------------------------------------------------------------------------------------------------------
 
-Key Features:
+📊 Problem Statement:
 
-Data preprocessing and feature engineering
+Health insurance costs can vary significantly depending on age, lifestyle, and health conditions. The objective of this project is to build an ML model that accurately predicts insurance charges based on input features such as:
 
-Exploratory Data Analysis (EDA) with visualizations
+Age
 
-Implementation of multiple regression models (Linear Regression, Ridge, Lasso)
+Gender
 
-Model evaluation using metrics such as MAE, MSE, and R² score
+BMI
 
-Deployed as an interactive app using Streamlit 
+Number of Children
 
-👉 [Click here to try the Medical Insurance Price Prediction App on Hugging Face] (https://huggingface.co/spaces/DharavathSri/MEDICAL_INSURANCE)
+Smoking Status
+
+Region
+-------------------------------------------------------------------
+
+💡 Features:
+
+Data preprocessing and visualization
+
+Feature encoding and transformation
+
+Outlier detection & treatment
+
+Correlation and statistical analysis
+
+Multiple ML models: Linear, Ridge, Lasso, Random Forest, etc.
+
+Hyperparameter tuning (GridSearchCV)
+
+Evaluation using MAE, MSE, RMSE, R²
+
+Streamlit web app for interactive prediction
+-------------------------------------------------------------------------------------------------------------------
+
+🛠️ Tech Stack:
+
+Python 3.8+
+
+Pandas, NumPy
+
+Scikit-learn
+
+Seaborn & Matplotlib
+
+Streamlit (for UI)
+
+Hugging Face Spaces (deployment)
+
+Google Colab (training/testing)
+-----------------------------------------------------------------------------------------------------------
+
+📁 Project Structure:
+bash
+Copy
+Edit
+📦 Medical-Insurance-Price-Prediction/
+├── insurance.csv                  # Dataset
+├── insurance_prediction.ipynb    # Colab notebook
+├── app.py                        # Streamlit app script
+├── requirements.txt              # Dependencies
+├── README.md                     # Project documentation
+    └── screenshots/              # App UI or model insights
+    ----------------------------------------------------------------------------------------------------------------
+📉 Dataset:
+
+Source: Kaggle - Medical Cost Personal Dataset
+
+Format: CSV
+-------------------------------------------------------------------------------------------------------------------------------
+
+Models Used:
+
+✅ Linear Regression
+
+✅ Ridge & Lasso Regression
+
+✅ Random Forest Regressor
+
+✅ Gradient Boosting
+
+✅ XGBoost (optional)
+
+Best Model (based on R² Score): Random Forest Regressor
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+📈 Performance Metrics:
+
+Metric	Value (example)
+R² Score	0.87
+MAE	2,750.42
+RMSE	4,520.65
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+📷 Demo 
+
+👉 [Click here to try the Medical Insurance Price Prediction App on Hugging Face 🤗] (https://huggingface.co/spaces/DharavathSri/MEDICAL_INSURANCE)
 
 📸 Screenshot 👇
 
