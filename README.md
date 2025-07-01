@@ -1,4 +1,4 @@
-🩺 MEDICAL INSURANCE PRICE PREDICTION USING MACHINE LEARNING:
+🩺 MEDICAL INSURANCE PRICE PREDICTION USING MACHINE LEARNING  🏥💰:
 
 This project aims to predict medical insurance costs based on an individual's demographic and health-related attributes such as age, sex, BMI, number of dependents, smoking status, and region. Leveraging machine learning regression techniques, the model estimates insurance premiums with high accuracy. The goal is to assist insurance companies in pricing policies more effectively and help individuals understand the impact of various factors on their premiums.
 ---------------------------------------------------------------------------------------------------------
@@ -18,6 +18,7 @@ Number of Children
 Smoking Status
 
 Region
+
 -------------------------------------------------------------------
 
 💡 Features:
@@ -37,6 +38,7 @@ Hyperparameter tuning (GridSearchCV)
 Evaluation using MAE, MSE, RMSE, R²
 
 Streamlit web app for interactive prediction
+
 -------------------------------------------------------------------------------------------------------------------
 
 🛠️ Tech Stack:
@@ -54,19 +56,17 @@ Streamlit (for UI)
 Hugging Face Spaces (deployment)
 
 Google Colab (training/testing)
+
 -----------------------------------------------------------------------------------------------------------
 
 📁 Project Structure:
-bash
-Copy
-Edit
-📦 Medical-Insurance-Price-Prediction/
-├── insurance.csv                  # Dataset
-├── insurance_prediction.ipynb    # Colab notebook
-├── app.py                        # Streamlit app script
-├── requirements.txt              # Dependencies
-├── README.md                     # Project documentation
-    └── screenshots/              # App UI or model insights
+1. insurance.csv                  # Dataset
+2. insurance_prediction.ipynb    # Colab notebook
+3. app.py                        # Streamlit app script
+4. requirements.txt              # Dependencies
+5. README.md                     # Project documentation
+6. screenshots/              # App UI or model insights
+   
     ----------------------------------------------------------------------------------------------------------------
 📉 Dataset:
 
